@@ -112,6 +112,7 @@ runs_per_season=pd.concat([match_per_season,season.iloc[:,1]],axis=1)
 runs_per_season['Runs scored per match']=runs_per_season['total_runs']/runs_per_season['matches']
 runs_per_season.set_index('Season',inplace=True)
 runs_per_season
+print(runs_per_season)
 
 
 # In[29]:
